@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef6e4; /* Fundo bege claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-manager {
+    background: #fff7e1; /* Fundo do gerenciador em bege mais intenso */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px auto 0; /* Centralizado horizontalmente e no topo */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8b5e34; /* Marrom claro */
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #d8b384; /* Bege escuro */
+    border-radius: 4px;
+    background-color: #fffdf6; /* Bege muito claro */
+  }
+  
+  .task-input button {
+    padding: 8px 16px;
+    background-color: #d8b384; /* Bege escuro */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-input button:hover {
+    background-color: #b28a60; /* Tom mais escuro do bege */
+  }
+  
+  .task-filters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    padding: 8px 12px;
+    background-color: #f3d9b1; /* Bege suave */
+    color: #8b5e34; /* Marrom claro */
+    border: 1px solid #d8b384; /* Bege escuro */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-btn:hover {
+    background-color: #e0c09d; /* Bege mais saturado */
+  }
+  
+  .filter-btn.active {
+    background-color: #d8b384; /* Bege escuro */
+    color: #fff;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #e6d5be; /* Bege suave */
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: #b28a60; /* Bege mais escuro */
+  }
+  
+  .task-item input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #ff6b6b; /* Vermelho suave */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 6px 8px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e64545; /* Vermelho mais escuro */
+  }
+  
